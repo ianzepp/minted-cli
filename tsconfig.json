@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "module": "commonjs",
+        "moduleResolution": "Node",
+        "noImplicitAny": true,
+        "outDir": "dst",
+        "preserveConstEnums": true,
+        "removeComments": true,
+        "sourceMap": true,
+        "target": "ES6"
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "dst",
+        "src/**/*.spec.ts",
+        "node_modules"
+    ]
+}
